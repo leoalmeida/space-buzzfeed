@@ -1,0 +1,5 @@
+<div class="home__container">
+    @for(item of filteredQuizzList(); track item.id){
+        <app-quizz [quizz]="item"></app-quizz>
+    }
+</div>
